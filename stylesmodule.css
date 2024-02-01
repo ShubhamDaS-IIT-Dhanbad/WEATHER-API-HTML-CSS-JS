@@ -1,0 +1,17 @@
+.sz1{
+    font-size: 25px;
+}
+.sz2{
+    font-size: 13px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.flex{
+    display: flex;
+}
+.flexcolumn{
+    display: flex;flex-direction: column;justify-content: center;
+}
+.img_size{
+    height: 31px;align-self: center;
+}
