@@ -9,7 +9,7 @@ body{
 }
 /* card */
 .card{
-   width: 22%;height:14%;
+    width: 22%;height:14%;
     margin-top: 20px;
     padding: 20px 0px 0px 0px;
     background-color: #00feba;box-shadow: 0 5px 15px rgba(96, 87, 87, 0.342);
@@ -21,7 +21,7 @@ body{
 }
 .search{
     width: 100%;
-    display: flex;
+    display: flex;flex-wrap: wrap;
     justify-content: center;
 }
 .search input{
@@ -72,7 +72,7 @@ body{
 }
 .humidity_windspeed{
     width: 100%;
-    margin: 3% 0 0 0;
+    margin: 7% 0 0 0;
     display: flex;justify-content: center;
     align-items: center;align-content: space-between;
     flex-wrap: wrap;
