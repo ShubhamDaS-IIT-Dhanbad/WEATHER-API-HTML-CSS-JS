@@ -10,7 +10,7 @@ body{
 /* card */
 .card{
     width: 22%;height:14%;
-    margin-top: 20px;
+    margin-top: 20px;margin-bottom:20px;
     padding: 20px 0px 0px 0px;
     background-color: #00feba;box-shadow: 0 5px 15px rgba(96, 87, 87, 0.342);
     background: linear-gradient(135deg,#00feba,#5b548a);
@@ -121,6 +121,8 @@ body{
 } */
 @media only screen and (max-width: 600px) {
     .card{
-        width: 100%;height: 20%;
+       width: 100%;height: 20%;
+        margin-top:0px;margin-bottom: 20px;
+        border-radius: 0px;
     }
 }
