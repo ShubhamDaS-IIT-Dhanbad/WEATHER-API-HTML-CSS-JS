@@ -28,7 +28,7 @@ async function checkweather(city){
         }else if(data.weather[0].main=="Snow") {
             document.querySelector(".weather_logo").src = "snow.png";}
         
-        document.querySelector(".card").style.height="90%";
+        document.querySelector(".card").style.height="100%";
         document.querySelector(".content").style.display="flex";
         
     }catch{
