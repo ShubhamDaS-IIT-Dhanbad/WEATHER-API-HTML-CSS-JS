@@ -33,9 +33,9 @@ async function checkweather(city){
         
     }catch{
         
-        document.querySelector(".card").style.height="10%";
-        document.querySelector(".content").style.display="none";
-        alert("Invalid country name")
+        // document.querySelector(".card").style.height="10%";
+        // document.querySelector(".content").style.display="none";
+        alert("Bhai City Nam ta thik kore likh")
     }
 }
 buttonsearch.addEventListener("click",()=>{
