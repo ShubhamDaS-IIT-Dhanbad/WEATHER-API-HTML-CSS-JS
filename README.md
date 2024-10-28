@@ -1,4 +1,3 @@
-Here's a README file template for your Weather API project using HTML, CSS, and JavaScript:
 
 ---
 
